@@ -42,34 +42,39 @@ include('_web/css.php');
                                 </div>
                                 <div class="acc-content current" style="display: none;">
                                     <div class="text">
-                                        
+
                                         <h3 class=" pd-10"><a href="news-letter/2025/April.pdf"><i
                                                     class="fa-solid fa-circle-down fa-beat pdr-5"></i>
                                                 Download April Month</a></h3>
-                                        <h3 class=" pd-10"><a href="news-letter/2024/october.pdf"><i
+                                        <h3 class=" pd-10"><a href="assets/images/newsletter/2025/may.pdf"><i
                                                     class="fa-solid fa-circle-down fa-beat pdr-5"></i>
-                                                Download Oct Month</a></h3>
-                                        <h3 class=" pd-10"><a href="news-letter/2024/september.pdf"><i
+                                                Download May Month</a></h3>
+                                        <!-- <h3 class=" pd-10"><a href="news-letter/2025/june.pdf"><i
                                                     class="fa-solid fa-circle-down fa-beat pdr-5"></i>
-                                                Download Sept Month</a></h3>
-                                        <h3 class=" pd-10"><a href="news-letter/2024/aug.pdf"><i
-                                                    class="fa-solid fa-circle-down fa-beat pdr-5"></i>
-                                                Download Aug Month</a></h3>
-                                        <h3 class=" pd-10"><a href="news-letter/2024/july.pdf"><i
+                                                Download June Month</a></h3> -->
+                                        <h3 class=" pd-10"><a href="news-letter/2025/july.pdf"><i
                                                     class="fa-solid fa-circle-down fa-beat pdr-5"></i>
                                                 Download July Month</a></h3>
-
-                                        <h3 class=" pd-10"><a href="assets/images/newsletter/2024/may.pdf"><i
+                                        <h3 class=" pd-10"><a href="news-letter/2025/aug.pdf"><i
                                                     class="fa-solid fa-circle-down fa-beat pdr-5"></i>
-                                                    Download May Month</a></h3>
-                                        <h3 class=" pd-10"><a href="#"><i
+                                                Download Aug Month</a></h3>
+                                        <h3 class=" pd-10"><a href="news-letter/2025/spet.pdf"><i
                                                     class="fa-solid fa-circle-down fa-beat pdr-5"></i>
-                                                    Download April Month</a></h3>
+                                                Download July September</a></h3>
+                                        <h3 class=" pd-10"><a href="news-letter/2025/oct.pdf"><i
+                                                    class="fa-solid fa-circle-down fa-beat pdr-5"></i>
+                                                Download October Month</a></h3>
+                                        <h3 class=" pd-10"><a href="news-letter/2025/nov.pdf"><i
+                                                    class="fa-solid fa-circle-down fa-beat pdr-5"></i>
+                                                Download November Month</a></h3>
+                                        <h3 class=" pd-10"><a href="news-letter/2025/dec.pdf"><i
+                                                    class="fa-solid fa-circle-down fa-beat pdr-5"></i>
+                                                Download December Month</a></h3>
                                     </div>
                                 </div>
                                 <div class="acc-content current" style="display: none;">
                                     <div class="text">
-                                        
+
                                         <h3 class=" pd-10"><a href="news-letter/2024/november.pdf"><i
                                                     class="fa-solid fa-circle-down fa-beat pdr-5"></i>
                                                 Download Nov Month</a></h3>
@@ -88,10 +93,10 @@ include('_web/css.php');
 
                                         <h3 class=" pd-10"><a href="assets/images/newsletter/2024/may.pdf"><i
                                                     class="fa-solid fa-circle-down fa-beat pdr-5"></i>
-                                                    Download May Month</a></h3>
+                                                Download May Month</a></h3>
                                         <h3 class=" pd-10"><a href="#"><i
                                                     class="fa-solid fa-circle-down fa-beat pdr-5"></i>
-                                                    Download April Month</a></h3>
+                                                Download April Month</a></h3>
                                     </div>
                                 </div>
                             </li>
