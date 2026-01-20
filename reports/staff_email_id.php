@@ -8,230 +8,227 @@ include('web/functions.php');
     <div class="container-xxl flex-grow-1 container-p-y">
         <h4>Staff Email ID </h4>
         <div class="row g-6">
-            <div class="col-md-6">
-                <table class="table table-striped">
+            <div class="col-md-12">
+                <table class="table table-striped table-bordered align-middle">
                     <tbody>
-                        <tr style="height: 35px;">
-                            <td style="height: 35px;">
-                                <p><strong>Teacher/Staff Name</strong></p>
-                            </td>
-                            <td style="height: 35px;">
-                                <p><strong>Designation</strong></p>
-                            </td>
-                            <td style="height: 35px;">
-                                <p><strong>Email- ID</strong></p>
-                            </td>
+                        <tr class="table-secondary">
+                            <th>Teacher/Staff Name</th>
+                            <th>Designation</th>
+                            <th>Email-ID</th>
                         </tr>
-                        <tr style="height: 35px;">
-                            <td style="height: 35px;">
-                                <p>Mr. Yash Paul</p>
-                            </td>
-                            <td style="height: 35px;">
-                                <p>Math HOD</p>
-                            </td>
-                            <td style="height: 35px;">
-                                <p>yashmunjal77@gmail.com</p>
-                            </td>
-                        </tr>
-                        <tr style="height: 35px;">
-                            <td style="height: 35px;">
-                                <p>Ms. Jasmeet Kaur</p>
-                            </td>
-                            <td style="height: 35px;">
-                                <p>English HOD</p>
-                            </td>
-                            <td style="height: 35px;">
-                                <p>jasmeetosho.jk@gmail.com</p>
-                            </td>
-                        </tr>
-                        <tr style="height: 35px;">
-                            <td style="height: 35px;">
-                                <p>Mr. Prabhjot Singh</p>
-                            </td>
-                            <td style="height: 35px;">
-                                <p>Science HOD</p>
-                            </td>
-                            <td style="height: 35px;">
-                                <p>prabhjot2491@gmail.com</p>
-                            </td>
-                        </tr>
-                        <tr style="height: 35px;">
-                            <td style="height: 35px;">
-                                <p>Ms. Veena Mishra</p>
-                            </td>
-                            <td style="height: 35px;">
-                                <p>Hindi HOD</p>
-                            </td>
-                            <td style="height: 35px;">
-                                <p>veenapmishra@gmail.com</p>
-                            </td>
-                        </tr>
-                        <tr style="height: 35px;">
-                            <td style="height: 35px;">
-                                <p>Ms. Nisha Khurana</p>
-                            </td>
-                            <td style="height: 35px;">
-                                <p>SST HOD</p>
-                            </td>
-                            <td style="height: 35px;">
-                                <p>khurananisha894@gmail.com</p>
-                            </td>
-                        </tr>
-                        <tr style="height: 35px;">
-                            <td style="height: 35px;">
-                                <p>Mr. Mitarsen</p>
-                            </td>
-                            <td style="height: 35px;">
-                                <p>Art HOD</p>
-                            </td>
-                            <td style="height: 35px;">
-                                <p>mitar.bhargava@gmail.com</p>
-                            </td>
-                        </tr>
-                        <tr style="height: 35px;">
-                            <td style="height: 35px;">
-                                <p>Mr. Banesh</p>
-                            </td>
-                            <td style="height: 35px;">
-                                <p>Physical Education</p>
-                            </td>
-                            <td style="height: 35px;">
-                                <p>baneshsharma921@gmail.com</p>
-                            </td>
-                        </tr>
-                        <tr style="height: 35px;">
-                            <td style="height: 35px;">
-                                <p>Mrs. Megha Mittal</p>
-                            </td>
-                            <td style="height: 35px;">
-                                <p>Dance/Music</p>
-                            </td>
-                            <td style="height: 35px;">
-                                <p>mgh.mittal03@gmail.com</p>
-                            </td>
-                        </tr>
-                        <tr style="height: 13px;">
-                            <td style="height: 13px;">&nbsp;</td>
-                            <td style="height: 13px;">&nbsp;</td>
-                            <td style="height: 13px;">&nbsp;</td>
-                        </tr>
-                        <tr style="height: 35px;">
-                            <td style="height: 35px;">
-                                <p><strong>Admin Staff</strong></p>
-                            </td>
-                            <td style="height: 35px;">
-                                <p><strong>Designation</strong></p>
-                            </td>
-                            <td style="height: 35px;">
-                                <p><strong>Email- ID</strong></p>
+
+                        <!-- Teachers -->
+                        <tr>
+                            <td>Mr. Yash Paul</td>
+                            <td>Math HOD</td>
+                            <td>
+                                <span class="email-link" onclick="copyEmail(this,'yashmunjal77@gmail.com')">
+                                    📧 <a href="mailto:yashmunjal77@gmail.com">yashmunjal77@gmail.com</a>
+                                    <span class="copy-tooltip">Copied!</span>
+                                </span>
                             </td>
                         </tr>
 
-                        <tr style="height: 35px;">
-                            <td style="height: 35px;">
-                                <p>Mr. Deepak</p>
-                            </td>
-                            <td style="height: 35px;">
-                                <p>Administrative Officer</p>
-                            </td>
-                            <td style="height: 35px;">
-                                <p>admin_dipak@mkkschool.com</p>
-                            </td>
-                        </tr>
-                        <tr style="height: 35px;">
-                            <td style="height: 35px;">
-                                <p>Ms. Manju Setia</p>
-                            </td>
-                            <td style="height: 35px;">
-                                <p>Academic Incharge</p>
-                            </td>
-                            <td style="height: 35px;">
-                                <p>manjusetia56@gmail.com</p>
+                        <tr>
+                            <td>Ms. Jasmeet Kaur</td>
+                            <td>English HOD</td>
+                            <td>
+                                <span class="email-link" onclick="copyEmail(this,'jasmeetosho.jk@gmail.com')">
+                                    📧 <a href="mailto:jasmeetosho.jk@gmail.com">jasmeetosho.jk@gmail.com</a>
+                                    <span class="copy-tooltip">Copied!</span>
+                                </span>
                             </td>
                         </tr>
-                        <tr style="height: 35px;">
-                            <td style="height: 35px;">
-                                <p>Ms. Meera Marawha</p>
-                            </td>
-                            <td style="height: 35px;">
-                                <p>Language &amp; Activity Incharge</p>
-                            </td>
-                            <td style="height: 35px;">
-                                <p>meeramarwaha02@gmail.com</p>
-                            </td>
-                        </tr>
-                        <tr style="height: 35px;">
-                            <td style="height: 35px;">
-                                <p>Ms. Sunita Gaba</p>
-                            </td>
-                            <td style="height: 35px;">
-                                <p>Fee Incharge</p>
-                            </td>
-                            <td style="height: 35px;">
-                                <p>sunitagaba38@gmail.com</p>
+
+                        <tr>
+                            <td>Mr. Prabhjot Singh</td>
+                            <td>Science HOD</td>
+                            <td>
+                                <span class="email-link" onclick="copyEmail(this,'prabhjot2491@gmail.com')">
+                                    📧 <a href="mailto:prabhjot2491@gmail.com">prabhjot2491@gmail.com</a>
+                                    <span class="copy-tooltip">Copied!</span>
+                                </span>
                             </td>
                         </tr>
-                        <tr style="height: 35px;">
-                            <td style="height: 35px;">
-                                <p>Ms. Neelam Malhotra</p>
-                            </td>
-                            <td style="height: 35px;">
-                                <p>Receptionist</p>
-                            </td>
-                            <td style="height: 35px;">
-                                <p>neelammalhotra248@gmail.com</p>
-                            </td>
-                        </tr>
-                        <tr style="height: 35px;">
-                            <td style="height: 35px;">
-                                <p>Ms. Kawalpreet</p>
-                            </td>
-                            <td style="height: 35px;">
-                                <p>Receptionist</p>
-                            </td>
-                            <td style="height: 35px;">
-                                <p>kawalpreetkaur44098@gmail.com</p>
+
+                        <tr>
+                            <td>Ms. Veena Mishra</td>
+                            <td>Hindi HOD</td>
+                            <td>
+                                <span class="email-link" onclick="copyEmail(this,'veenapmishra@gmail.com')">
+                                    📧 <a href="mailto:veenapmishra@gmail.com">veenapmishra@gmail.com</a>
+                                    <span class="copy-tooltip">Copied!</span>
+                                </span>
                             </td>
                         </tr>
-                        <tr style="height: 35px;">
-                            <td style="height: 35px;">
-                                <p>Mr. Gulshan</p>
-                            </td>
-                            <td style="height: 35px;">
-                                <p>Accountant</p>
-                            </td>
-                            <td style="height: 35px;">
-                                <p>gulshansammi@gmail.com</p>
-                            </td>
-                        </tr>
-                        <tr style="height: 35px;">
-                            <td style="height: 35px;">
-                                <p>Mr. Dheeraj</p>
-                            </td>
-                            <td style="height: 35px;">
-                                <p>Accountant</p>
-                            </td>
-                            <td style="height: 35px;">
-                                <p>dheerajw4204@gmail.com</p>
+
+                        <tr>
+                            <td>Ms. Nisha Khurana</td>
+                            <td>SST HOD</td>
+                            <td>
+                                <span class="email-link" onclick="copyEmail(this,'khurananisha894@gmail.com')">
+                                    📧 <a href="mailto:khurananisha894@gmail.com">khurananisha894@gmail.com</a>
+                                    <span class="copy-tooltip">Copied!</span>
+                                </span>
                             </td>
                         </tr>
-                        <tr style="height: 35px;">
-                            <td style="height: 35px;">
-                                <p>Mr. Bhupinder Singh</p>
+
+                        <tr>
+                            <td>Mr. Mitarsen</td>
+                            <td>Art HOD</td>
+                            <td>
+                                <span class="email-link" onclick="copyEmail(this,'mitar.bhargava@gmail.com')">
+                                    📧 <a href="mailto:mitar.bhargava@gmail.com">mitar.bhargava@gmail.com</a>
+                                    <span class="copy-tooltip">Copied!</span>
+                                </span>
                             </td>
-                            <td style="height: 35px;">
-                                <p>IT Incharge</p>
+                        </tr>
+
+                        <tr>
+                            <td>Mr. Banesh</td>
+                            <td>Physical Education</td>
+                            <td>
+                                <span class="email-link" onclick="copyEmail(this,'baneshsharma921@gmail.com')">
+                                    📧 <a href="mailto:baneshsharma921@gmail.com">baneshsharma921@gmail.com</a>
+                                    <span class="copy-tooltip">Copied!</span>
+                                </span>
                             </td>
-                            <td style="height: 35px;">
-                                <p>bhupindersinghsaggu40@gmail.com</p>
+                        </tr>
+
+                        <tr>
+                            <td>Mrs. Megha Mittal</td>
+                            <td>Dance/Music</td>
+                            <td>
+                                <span class="email-link" onclick="copyEmail(this,'mgh.mittal03@gmail.com')">
+                                    📧 <a href="mailto:mgh.mittal03@gmail.com">mgh.mittal03@gmail.com</a>
+                                    <span class="copy-tooltip">Copied!</span>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <!-- Admin -->
+                        <tr class="table-secondary">
+                            <th>Admin Staff</th>
+                            <th>Designation</th>
+                            <th>Email-ID</th>
+                        </tr>
+
+                        <tr>
+                            <td>Mr. Deepak</td>
+                            <td>Administrative Officer</td>
+                            <td>
+                                <span class="email-link" onclick="copyEmail(this,'admin_dipak@mkkschool.com')">
+                                    📧 <a href="mailto:admin_dipak@mkkschool.com">admin_dipak@mkkschool.com</a>
+                                    <span class="copy-tooltip">Copied!</span>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Ms. Manju Setia</td>
+                            <td>Academic Incharge</td>
+                            <td>
+                                <span class="email-link" onclick="copyEmail(this,'manjusetia56@gmail.com')">
+                                    📧 <a href="mailto:manjusetia56@gmail.com">manjusetia56@gmail.com</a>
+                                    <span class="copy-tooltip">Copied!</span>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Ms. Meera Marawha</td>
+                            <td>Language & Activity Incharge</td>
+                            <td>
+                                <span class="email-link" onclick="copyEmail(this,'meeramarwaha02@gmail.com')">
+                                    📧 <a href="mailto:meeramarwaha02@gmail.com">meeramarwaha02@gmail.com</a>
+                                    <span class="copy-tooltip">Copied!</span>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Ms. Sunita Gaba</td>
+                            <td>Fee Incharge</td>
+                            <td>
+                                <span class="email-link" onclick="copyEmail(this,'sunitagaba38@gmail.com')">
+                                    📧 <a href="mailto:sunitagaba38@gmail.com">sunitagaba38@gmail.com</a>
+                                    <span class="copy-tooltip">Copied!</span>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Ms. Neelam Malhotra</td>
+                            <td>Receptionist</td>
+                            <td>
+                                <span class="email-link" onclick="copyEmail(this,'neelammalhotra248@gmail.com')">
+                                    📧 <a href="mailto:neelammalhotra248@gmail.com">neelammalhotra248@gmail.com</a>
+                                    <span class="copy-tooltip">Copied!</span>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Ms. Kawalpreet</td>
+                            <td>Receptionist</td>
+                            <td>
+                                <span class="email-link" onclick="copyEmail(this,'kawalpreetkaur44098@gmail.com')">
+                                    📧 <a href="mailto:kawalpreetkaur44098@gmail.com">kawalpreetkaur44098@gmail.com</a>
+                                    <span class="copy-tooltip">Copied!</span>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Mr. Gulshan</td>
+                            <td>Accountant</td>
+                            <td>
+                                <span class="email-link" onclick="copyEmail(this,'gulshansammi@gmail.com')">
+                                    📧 <a href="mailto:gulshansammi@gmail.com">gulshansammi@gmail.com</a>
+                                    <span class="copy-tooltip">Copied!</span>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Mr. Dheeraj</td>
+                            <td>Accountant</td>
+                            <td>
+                                <span class="email-link" onclick="copyEmail(this,'dheerajw4204@gmail.com')">
+                                    📧 <a href="mailto:dheerajw4204@gmail.com">dheerajw4204@gmail.com</a>
+                                    <span class="copy-tooltip">Copied!</span>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Mr. Bhupinder Singh</td>
+                            <td>IT Incharge</td>
+                            <td>
+                                <span class="email-link" onclick="copyEmail(this,'bhupindersinghsaggu40@gmail.com')">
+                                    📧 <a href="mailto:bhupindersinghsaggu40@gmail.com">bhupindersinghsaggu40@gmail.com</a>
+                                    <span class="copy-tooltip">Copied!</span>
+                                </span>
                             </td>
                         </tr>
                     </tbody>
                 </table>
             </div>
+
+            <script>
+                function copyEmail(el, email) {
+                    navigator.clipboard.writeText(email).then(() => {
+                        const tip = el.querySelector('.copy-tooltip');
+                        tip.style.display = 'inline';
+                        setTimeout(() => tip.style.display = 'none', 1500);
+                    });
+                }
+            </script>
+
         </div>
     </div>
-    <!-- / Content -->
-    <?php
-    include('web/footer.php')
-    ?>
+</div>
+<!-- / Content -->
+<?php
+include('web/footer.php')
+?>
