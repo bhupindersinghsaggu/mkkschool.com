@@ -49,6 +49,11 @@
             <div class="text-truncate" data-i18n="Authentications"> Admin Block</div>
         </a>
         <ul class="menu-sub">
+             <li class="menu-item">
+                <a href="staff_email_id.php" class="menu-link" target="_blank">
+                    <div class="text-truncate" data-i18n="Basic">Staff Email ID</div>
+                </a>
+            </li>
             <li class="menu-item">
                 <a href="https://docs.google.com/document/d/1O4rDYQ96GUAO7AQ1yjxdh1fqmEdC9SYrAj0diZVtahI/edit?tab=t.0" class="menu-link" target="_blank">
                     <div class="text-truncate" data-i18n="Basic">Online Fee Issue</div>
