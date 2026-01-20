@@ -46,7 +46,7 @@ include('_web/css.php');
                                         <h3 class=" pd-10"><a href="news-letter/2025/April.pdf"><i
                                                     class="fa-solid fa-circle-down fa-beat pdr-5"></i>
                                                 Download April Month</a></h3>
-                                        <!-- <h3 class=" pd-10"><a href="news-letter/2024/october.pdf"><i
+                                        <h3 class=" pd-10"><a href="news-letter/2024/october.pdf"><i
                                                     class="fa-solid fa-circle-down fa-beat pdr-5"></i>
                                                 Download Oct Month</a></h3>
                                         <h3 class=" pd-10"><a href="news-letter/2024/september.pdf"><i
@@ -64,7 +64,7 @@ include('_web/css.php');
                                                     Download May Month</a></h3>
                                         <h3 class=" pd-10"><a href="#"><i
                                                     class="fa-solid fa-circle-down fa-beat pdr-5"></i>
-                                                    Download April Month</a></h3> -->
+                                                    Download April Month</a></h3>
                                     </div>
                                 </div>
                                 <div class="acc-content current" style="display: none;">
